@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, /home/dev/projects/Hacktime/Motor_Position.v
+source_file = 1, /home/dev/projects/Hacktime/clock_divider.qip
+source_file = 1, /home/dev/projects/Hacktime/clock_divider.v
+source_file = 1, /home/dev/projects/Hacktime/clock_divider/clock_divider_0002.v
+source_file = 1, /home/dev/projects/Hacktime/clock_divider/clock_divider_0002.qip
+source_file = 1, /home/dev/projects/Hacktime/clock_divider.sip
+source_file = 1, /home/dev/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altera_pll.v
+design_name = Motor_Position
+instance = comp, \LEDG~output , LEDG~output, Motor_Position, 1
+instance = comp, \CLOCK_50_B5B~input , CLOCK_50_B5B~input, Motor_Position, 1
+instance = comp, \CPU_RESET_n~input , CPU_RESET_n~input, Motor_Position, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Motor_Position, 1

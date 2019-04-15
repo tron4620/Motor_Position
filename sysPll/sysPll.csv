@@ -1,0 +1,18 @@
+# system info sysPll on 2019.04.10.16:32:49
+system_info:
+name,value
+DEVICE,5CGXBC5C6F27C7
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1554939168
+#
+#
+# Files generated for sysPll on 2019.04.10.16:32:49
+files:
+filepath,kind,attributes,module,is_top
+simulation/sysPll.v,VERILOG,,sysPll,true
+simulation/submodules/sysPll_altclkctrl_0.v,VERILOG,,sysPll_altclkctrl_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+sysPll.altclkctrl_0,sysPll_altclkctrl_0
